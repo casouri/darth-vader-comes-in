@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C0C0FD01DB042EA00C70BB3 /* imperial_march.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1C0C0FCF1DB042EA00C70BB3 /* imperial_march.wav */; };
 		1C82C1AA1DAF06D90079B44C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C82C1A91DAF06D90079B44C /* AppDelegate.swift */; };
 		1C82C1AC1DAF06D90079B44C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C82C1AB1DAF06D90079B44C /* ViewController.swift */; };
 		1C82C1AF1DAF06D90079B44C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C82C1AD1DAF06D90079B44C /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C0C0FCF1DB042EA00C70BB3 /* imperial_march.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = imperial_march.wav; sourceTree = "<group>"; };
 		1C82C1A61DAF06D90079B44C /* darth-vader-comes-in.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "darth-vader-comes-in.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C82C1A91DAF06D90079B44C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C82C1AB1DAF06D90079B44C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				1C82C1BD1DAF06D90079B44C /* darth-vader-comes-inTests */,
 				1C82C1C81DAF06D90079B44C /* darth-vader-comes-inUITests */,
 				1C82C1A71DAF06D90079B44C /* Products */,
+				1C0C0FCF1DB042EA00C70BB3 /* imperial_march.wav */,
 			);
 			sourceTree = "<group>";
 		};
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					1C82C1A51DAF06D90079B44C = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 29M5GR2L44;
 						ProvisioningStyle = Automatic;
 					};
 					1C82C1B91DAF06D90079B44C = {
@@ -235,6 +239,7 @@
 				1C82C1B41DAF06D90079B44C /* LaunchScreen.storyboard in Resources */,
 				1C82C1B11DAF06D90079B44C /* Assets.xcassets in Resources */,
 				1C82C1AF1DAF06D90079B44C /* Main.storyboard in Resources */,
+				1C0C0FD01DB042EA00C70BB3 /* imperial_march.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29M5GR2L44;
 				INFOPLIST_FILE = "darth-vader-comes-in/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yuanfu.darth-vader-comes-in";
@@ -424,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29M5GR2L44;
 				INFOPLIST_FILE = "darth-vader-comes-in/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yuanfu.darth-vader-comes-in";
@@ -505,6 +512,7 @@
 				1C82C1D01DAF06D90079B44C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C82C1D11DAF06D90079B44C /* Build configuration list for PBXNativeTarget "darth-vader-comes-inTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +521,7 @@
 				1C82C1D31DAF06D90079B44C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C82C1D41DAF06D90079B44C /* Build configuration list for PBXNativeTarget "darth-vader-comes-inUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +530,7 @@
 				1C82C1D61DAF06D90079B44C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
